@@ -1,0 +1,33 @@
+{
+  "name": "template-node",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Template for node projects",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon --inspect src",
+    "lint": "eslint src",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpalmr/template-node.git"
+  },
+  "keywords": [],
+  "author": "Matthew Palmer <mspalmer91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpalmr/template-node/issues"
+  },
+  "homepage": "https://github.com/mpalmr/template-node#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.17.1",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
